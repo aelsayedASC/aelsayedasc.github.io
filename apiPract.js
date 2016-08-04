@@ -5,7 +5,7 @@ function grabData(){
     var name=$('#name').val();
     $.ajax({
         url:'http://www.omdbapi.com/?t='+name,
-        suc cess:function(result){
+        success:function(result){
             print(result);
         }
     })
